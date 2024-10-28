@@ -14,7 +14,8 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,11 +25,94 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>TNM Portofolio</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <div class="resume-container">
+      <header class="header">
+        <h1>Theodor Nissen-Meyer</h1>
+        <p>+47 48361224 | theodornm@gmail.com | Borgenveien 24, Oslo, 0370, Norge</p>
+        <div class="links">
+          <a href="https://github.com/TheodorN-M" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/theodor-nm/" target="_blank">LinkedIn</a>
+        </div>
+      </header>
+    <section class="education">
+      <h2>Education</h2>
+      <p><strong>BcS Computer Science</strong> - University of Bergen / 2024</p>
+      <ul>
+        <li>Bachelor program with courses in programming, mathematics, statistics, databases, and software security.</li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Work Experience</h2>
+      <div class="job">
+        <h3>Teaching Assistant in Programming</h3>
+        <p>University of Bergen / Jan 2024 - Present</p>
+        <ul>
+          <li>Teaching assistant for Introduction to Programming (INF100)</li>
+          <li>Instructed and guided groups of students in programming with Python</li>
+          <li>Graded weekly assignments and quizzes</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Fullstack Developer</h3>
+        <p>Indra Navia AS, Asker / Jun 2024 - Aug 2024</p>
+        <ul>
+          <li>Implemented interface for external APIs with existing systems</li>
+          <li>3D-visualized aircraft and drone positions in a web application</li>
+          <li>Stored data for a machine learning model to predict aircraft taxi times</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Substitute Teacher and Assistant</h3>
+        <p>Marienlyst Primary and Secondary School, Oslo / Nov 2021 - Jun 2022</p>
+        <ul>
+          <li>Taught mathematics, social studies, geography, and physical education</li>
+          <li>1-on-1 teacher in the special education department</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="volunteering">
+      <h2>Volunteering</h2>
+      <div class="volunteer-job">
+        <h3>Financial Manager - echo, The Student Association for Computer Science</h3>
+        <p>University of Bergen / Mar 2024 - Present</p>
+        <ul>
+          <li>Financially responsible for the association's economy</li>
+          <li>Responsibilities include budgeting, accounting, and invoicing.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>IT Skills</h2>
+      <ul>
+        <li>Programming in Python, Java, TypeScript</li>
+        <li>Git</li>
+        <li>Mathematics and statistics</li>
+      </ul>
+    </section>
+
+    <section class="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li>Norwegian</li>
+        <li>English</li>
+        <li>Italian</li>
+      </ul>
+    </section>
+
+    <section class="hobbies">
+      <h2>Hobbies</h2>
+      <p>Golf, sailing, tennis</p>
+    </section>
+  </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

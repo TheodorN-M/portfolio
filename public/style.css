@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .header p {
+    margin: 10px 0;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0073b1;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0073b1;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .job, .volunteer-job {
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  p, li {
+    margin-bottom: 5px;
+  }
+  
+  .skills ul, .languages ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
