@@ -5,26 +5,30 @@ import './App.css';
 function App() {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1',
-      link: 'https://example.com/project1',
+      title: 'CatsVsRats',
+      description: 'Tower defense game',
+      graphic: require('./resources/returnOfTheRats.gif'),
+      link: 'https://github.com/TheodorN-M/CatsVsRats',
     },
     {
-      title: 'Project 2',
-      description: 'Description of Project 2',
-      link: 'https://example.com/project2',
+      title: 'Connect4',
+      description: 'Written in Java with AI',
+      graphic: require('./resources/Kort_demo.mov'),
+      link: 'https://github.com/TheodorN-M/connect4AI',
     },
     {
-      title: 'Project 3',
-      description: 'Description of Project 3',
-      link: 'https://example.com/project3',
+      title: '3D Flight visualization',
+      description: 'Flight path visualization app',
+      graphic: require('./resources/KL1953.gif'),
+      link: 'https://github.com/TheodorN-M/flightradar24_visualization',
     },
+
   ];
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>My Coding Portfolio</h1>
+        <h1>Theodor Nissen-Meyer's Portfolio</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>Welcome to my portfolio! Here are some of my projects:</p>
       </header>
@@ -33,8 +37,9 @@ function App() {
           <div className="Project-card" key={index}>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
+            <img className="Project-image" src={project.graphic} alt={`${project.title} screenshot`} />
             <a className="Project-link" href={project.link} target="_blank" rel="noopener noreferrer">
-              View Project
+              View on GitHub
             </a>
           </div>
         ))}
