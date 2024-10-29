@@ -60,17 +60,3 @@
   text-decoration: underline;
 }
 
-.App-footer {
-  background-color: #282c34;
-  color: white;
-  padding: 20px;
-  font-size: calc(8px + 1vmin);
-}
-
-.App-footer a {
-  color: #61dafb;
-}
-
-.App-footer a:hover {
-  text-decoration: underline;
-}

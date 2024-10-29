@@ -44,21 +44,15 @@ function App() {
           </div>
         ))}
         
-        <div className="PDF-section">
+        {/* <div className="PDF-section">
           <p>Download my resume:</p>
           <a href="path/to/yourfile.pdf" target="_blank" rel="noopener noreferrer">
             <button className="PDF-button">Download PDF</button>
           </a>
-        </div>
+        </div> */}
 
       </main>
-      <footer className="App-footer">
-        <p>Contact Information:</p>
-        <p>Email: theodor@berkeley.edu</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/theodor-nm/" target="_blank" rel="noopener noreferrer">Theodor Nissen-Meyer</a></p>
-        <p>GitHub: <a href="https://github.com/TheodorN-M" target="_blank" rel="noopener noreferrer">TheodorN-M</a></p>
-        <p>Thank you for visiting my portfolio!</p>
-      </footer>
+
     </div>
   );
 }
